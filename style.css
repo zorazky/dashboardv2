@@ -14,9 +14,12 @@
     list-style-type: none;
     box-sizing: border-box;
 }
+<<<<<<< HEAD
 #sidebar-toggle {
     display: none;
 }
+=======
+>>>>>>> 19781649db31aa7f52403a6943d7efdb30d96840
 .sidebar {
     height: 100%;
     width: 240px;
@@ -27,7 +30,10 @@
     background: var(--main-color);
     color: #fff;
     overflow-y: auto;
+<<<<<<< HEAD
     transition: width 500ms;
+=======
+>>>>>>> 19781649db31aa7f52403a6943d7efdb30d96840
 }
 .sidebar-header {
     display: flex;
@@ -49,6 +55,7 @@
 .sidebar a span:last-child {
     padding-left: .6rem;
 }
+<<<<<<< HEAD
 #sidebar-toggle:checked ~ .sidebar {
     width: 60px;
 }
@@ -71,6 +78,11 @@
     position: relative;
     margin-left: 240px;
     transition: margin-left 500ms;
+=======
+.main-content {
+    position: relative;
+    margin-left: 240px;
+>>>>>>> 19781649db31aa7f52403a6943d7efdb30d96840
 }
 header {
     position: fixed;
@@ -85,7 +97,10 @@ header {
     align-items:center;
     justify-content: space-between;
     border-bottom: 1px solid #ccc;
+<<<<<<< HEAD
     transition: all 500ms;
+=======
+>>>>>>> 19781649db31aa7f52403a6943d7efdb30d96840
 }
 .search-wrapper {
     display: flex;
@@ -117,7 +132,10 @@ main {
     margin-top: 60px;
     background: #f1f5f9;
     min-height: 90vh;
+<<<<<<< HEAD
     padding: 1rem 3rem;
+=======
+>>>>>>> 19781649db31aa7f52403a6943d7efdb30d96840
 }
 .dash-title {
     color: var(--color-dark);
@@ -126,21 +144,32 @@ main {
 .dash-cards {
     display:grid;
     grid-template-columns: repeat(3, 1fr);
+<<<<<<< HEAD
     grid-column-gap: 3rem;
+=======
+    grid-column-gap: 5rem;
+>>>>>>> 19781649db31aa7f52403a6943d7efdb30d96840
 }
 .card-single {
     background: #fff;
     border-radius: 7px;
+<<<<<<< HEAD
     box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
 }
 .card-body {
     padding: 1.3rem 1rem;
+=======
+}
+.card-body {
+    padding: 1rem;
+>>>>>>> 19781649db31aa7f52403a6943d7efdb30d96840
     display: flex;
     align-items: center;
 }
 .card-body span {
     font-size: 1.5rem;
     color: #777;
+<<<<<<< HEAD
     padding-right: 1.4rem;
 }
 .card-body h5 {
@@ -359,3 +388,7 @@ tbody td:nth-child(even) {
         padding-right: 1rem;
     }
 }
+=======
+    padding-right: 1rem;
+}
+>>>>>>> 19781649db31aa7f52403a6943d7efdb30d96840
